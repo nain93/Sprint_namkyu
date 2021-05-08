@@ -1,0 +1,54 @@
+.topnav {
+  overflow: hidden;
+  background-color: #04aa6d;
+  position: relative;
+}
+.topnav div {
+  display: flex;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav button {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav button.icon {
+  display: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .topnav > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .hide a {
+    display: none;
+  }
+  .show {
+    display: flex;
+    flex-direction: column;
+  }
+  .topnav button.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
