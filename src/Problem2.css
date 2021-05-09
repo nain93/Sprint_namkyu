@@ -3,11 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
-.problem2-box div {
+.problem2-box > div {
   font-size: 3rem;
 }
-#piechart {
-  width: 900px;
-  height: 500px;
+.piechart {
+  width: 500px;
+  height: 300px;
 }
