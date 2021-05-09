@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Problem1 from "./Problem1";
 import Problem2 from "./Problem2";
